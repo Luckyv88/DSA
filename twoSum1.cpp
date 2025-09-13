@@ -4,7 +4,7 @@
 using namespace std;
 
 int main() {
-    vector<int> nums = {2, 7, 11, 15};   // ✅ fixed
+    vector<int> nums = {2, 7, 11, 15};   
     int target = 9;
     vector<int> dupli = nums;  
     int n = nums.size();
@@ -36,7 +36,7 @@ int main() {
     }
 
     cout << "Indices: ";
-    for (int idx : ans) cout << idx << " ";   // ✅ fixed
+    for (int idx : ans) cout << idx << " ";  
     cout << endl;
 
     return 0;
